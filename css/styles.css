@@ -1,0 +1,153 @@
+/* -----Page Reset----- */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: Arial, Helvetica, sans-serif;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* -----Nav Bar & Content----- */
+header nav {
+  background-color: #fff;
+  box-shadow: 5px 0px 10px #aaa;
+}
+header nav ul {
+  list-style: none;
+  display: inline-flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 20px;
+}
+header nav ul li {
+  padding: 10px 15px;
+  margin: 0 8px;
+  border-radius: 5px;
+  transition: 0.2s;
+}
+
+/* Nav Content: Home, Categories About Us */
+header nav ul li.pages {
+  font-weight: bold;
+}
+header nav ul li.pages:hover {
+  background-color: #eee;
+}
+header nav ul li a {
+  text-decoration: none;
+  color: #333;
+}
+
+/* Nav Logo */
+header nav ul li.logo a img {
+  width: 120px;
+
+  /* font-size: 24px;
+    font-weight: 600; */
+}
+/* header nav ul li.logo a span {
+    color: #F55D00;
+} */
+header nav ul li.logo {
+  margin-right: 500px;
+}
+/* Nav Register and Log In */
+header nav ul li.register a,
+header nav ul li.login a {
+  padding: 8px 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: 0.2s;
+}
+header nav ul li.register a {
+  border: 1px solid #000;
+  background-color: #000;
+  color: #fff;
+}
+header nav ul li.register a:hover {
+  background-color: #fff;
+  color: #000;
+}
+header nav ul li.login a:hover {
+  background-color: #eee;
+}
+/* Nav Icon */
+header nav ul li.cart_icon a img {
+  width: 28px;
+  height: auto;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+}
+
+/* -----Footer Section----- */
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 75px;
+  background-color: #333;
+}
+footer .footer {
+  width: 100%;
+  padding: 20px 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.footer p {
+  color: whitesmoke;
+}
+.footer p a {
+  text-decoration: none;
+  color: whitesmoke;
+  transition: 0.2s;
+}
+.footer p a:hover {
+  color: #f55d00;
+}
+.footer p a img {
+  width: 28px;
+  height: auto;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 100%;
+  min-width: 160px;
+  background-color: #f9f9f9;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content a {
+  color: black;
+  text-decoration: none;
+  display: block;
+  padding: 8px 8px;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}

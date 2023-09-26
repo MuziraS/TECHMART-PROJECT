@@ -1,0 +1,202 @@
+table {
+  border-radius: 5px;
+  border-collapse: collapse;
+}
+
+p.label {
+  text-align: center;
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 2rem;
+  margin-top: 30px;
+}
+
+td.category img {
+  border-radius: 175px;
+  width: 250px;
+  height: 250px;
+}
+
+td.category {
+  padding: 25px;
+  text-align: center;
+}
+
+div.row {
+  margin-bottom: 20px;
+}
+
+table {
+  margin: auto;
+}
+body {
+  background-color: rgb(230, 230, 230);
+}
+
+.card-img {
+  width: 225px;
+  height: 225px;
+}
+div.card-body {
+  width: 250px;
+  padding: 10px;
+  text-align: center;
+  background-color: white;
+  margin: 10px 5px;
+}
+table#category_products div.card-body button {
+  visibility: hidden;
+}
+button.add_cart,
+button#checkout,
+button#start_shopping {
+  width: 150px;
+  height: 35px;
+  background-color: orange;
+  border: none;
+  border-radius: 5px;
+  font-size: large;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+/* .description {
+  font-size: large;
+} */
+table#category_products td > div:hover,
+table.tags td > div.card-body:hover {
+  transform: scale(1.02);
+  box-shadow: 0 7px 10px rgba(0, 0, 0, 0.2);
+}
+table.tags td {
+  padding-top: 5px;
+}
+table#category_products td > div:hover button.add_cart {
+  visibility: visible;
+}
+
+div#product_view {
+  background-color: rgb(250, 250, 250);
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+div#product_view td.view_image img {
+  height: 250px;
+  width: 250px;
+}
+div#product_view td {
+  padding: 20px;
+}
+table#nested {
+  border-collapse: separate;
+  border-spacing: 0px 20px;
+}
+
+table#nested td.heading {
+  font-weight: bold;
+}
+
+table#nested td#product_name {
+  font-size: larger;
+}
+
+div.cart_item {
+  margin: 50px 100px;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: rgb(250, 250, 250);
+  box-shadow: 0 7px 10px rgba(0, 0, 0, 0.2);
+}
+
+div.cart_item td {
+  padding: 20px;
+}
+
+div.cart_item td img {
+  width: 250px;
+  height: 250px;
+}
+
+input.quantity {
+  width: 35px;
+  height: 25px;
+  margin: 0px 10px;
+  border-radius: 5px;
+  border: none;
+  text-align: center;
+  font-size: larger;
+}
+button.plus,
+button.minus {
+  width: 25px;
+  height: 25px;
+  border: none;
+  background-color: orange;
+  border-radius: 5px;
+  font-size: large;
+}
+
+button.remove {
+  width: 150px;
+  height: 30px;
+  border: none;
+  background-color: orange;
+  border-radius: 5px;
+  font-size: large;
+}
+
+table tr.heading div {
+  padding-left: 30px;
+  font-size: x-large;
+  text-transform: capitalize;
+  background-color: orange;
+  height: 50px;
+  vertical-align: middle;
+  margin-top: 30px;
+  padding-top: 10px;
+}
+tr.content {
+  background-color: white;
+}
+tr.content div.card-body {
+  margin-top: 0px;
+}
+table tr.content div.card-body button {
+  display: none;
+}
+table.cart {
+  margin-top: 20px;
+}
+table.cart td {
+  padding: 10px;
+  background-color: white;
+}
+table.cart td.curved-top {
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+table.cart td.curved-bottom {
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+div.main {
+  min-height: calc(100% - 75px);
+  padding-bottom: 75px;
+}
+table#summary {
+  position: fixed;
+  top: 25%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+}
+table#cart_list {
+  margin-left: 100px;
+}
